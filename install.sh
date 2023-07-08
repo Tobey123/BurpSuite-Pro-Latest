@@ -8,11 +8,10 @@
     echo $version
     wget "$Link" -O burpsuite_pro_v$version.jar --quiet --show-progress
 
-     # execute Keygenerator
+    # Execute Keygenerator
     echo 'Starting Keygenerator'
     (java -jar loader.jar) &
     sleep 2s
-    
     
     # Execute Burp Suite Professional Latest with Key
     echo 'Executing Burp Suite Professional Latest with Keyloader'
@@ -20,6 +19,3 @@
     chmod +x Burp
     cp Burp /bin/Burp
     (./Burp)
-else
-    echo "Execute Command as Root"
-exit
