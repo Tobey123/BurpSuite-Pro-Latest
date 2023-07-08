@@ -4,7 +4,9 @@
     cd BurpSuite-Pro-Latest
     sudo ./install.sh
 
-
+# Run:
+    burpsuite
+    
 
 Notes: 
 1. Modify License String like " license to XXXXXXX "
