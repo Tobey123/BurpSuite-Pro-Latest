@@ -1,6 +1,5 @@
 #!/bin/bash
 
-if
     # Download Burp Suite Profesional Latet Version
     echo 'Downloading Burp Suite Professional Latest....'
     mkdir -p /usr/share/burpsuite
@@ -31,4 +30,3 @@ if
 else
     echo "Execute Command as Root User"
     exit
-fi
