@@ -1,7 +1,7 @@
 # Installation:
 
-    git clone https://github.com/xiv3r/BurpSuite-Professional-Latest
-    cd BurpSuite-Professional-Latest
+    git clone https://github.com/xiv3r/BurpSuite-Pro-Latest.git
+    cd BurpSuite-Pro-Latest
     sudo ./install.sh
 
 
