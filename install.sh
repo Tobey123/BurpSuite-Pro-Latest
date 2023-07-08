@@ -14,7 +14,7 @@
     Link="https://portswigger-cdn.net/burp/releases/download?product=pro&version=&type=jar"
     echo $version
     wget "$Link" -O burpsuite_pro_v$version.jar --quiet --show-progress
-    sleep 2
+    sleep 2s
     
     # Execute Burp Suite Professional with Keyloader
     echo 'Executing Burp Suite Professional with Keyloader'
