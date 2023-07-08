@@ -5,10 +5,7 @@
     mkdir -p /usr/share/burpsuite
     cp loader.jar /usr/share/burpsuite/
     cp burp_suite.ico /usr/share/burpsuite/
-    rm Windows_setup.ps1
-    rm -rf .git
     cd /usr/share/burpsuite/
-	rm burpsuite.jar
     html=$(curl -s https://portswigger.net/burp/releases)
     version=$(echo $html | grep -Po '(?<=/burp/releases/professional-community-)[0-9]+\-[0-9]+\-[0-9]+' | head -n 1)
     Link="https://portswigger-cdn.net/burp/releases/download?product=pro&version=&type=jar"
